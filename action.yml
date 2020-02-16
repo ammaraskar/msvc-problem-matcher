@@ -1,0 +1,9 @@
+name: MSVC Problem Matcher
+description: Attaches a problem matcher that looks for errors during MSVC builds
+author: Ammar Askar
+branding:
+  icon: check-square
+  color: blue
+runs:
+  using: docker
+  image: Dockerfile
